@@ -6,7 +6,6 @@
 3.编辑cdp.properties文件
 
 #redis配置
-
 cdp.docker.session.cluster.node.ip.1=****
 cdp.docker.session.cluster.node.port.1=6379
 cdp.docker.session.cluster.node.password.1=****
