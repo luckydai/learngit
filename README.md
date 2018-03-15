@@ -11,10 +11,6 @@ cdp.docker.session.cluster.node.ip.1=****
 cdp.docker.session.cluster.node.port.1=6379
 cdp.docker.session.cluster.node.password.1=****
 
-#auth redis node info
-cdp.docker.auth.redis.cluster.node.ip.1=****
-cdp.docker.auth.redis.cluster.node.port.1=6379
-cdp.docker.auth.redis.cluster.node.password.1=****
 
 
 
