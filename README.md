@@ -5,7 +5,7 @@
 
 3.编辑cdp.properties文件
 
-#redis配置
+3.1redis配置
 cdp.docker.session.cluster.node.ip.1=****
 cdp.docker.session.cluster.node.port.1=6379
 cdp.docker.session.cluster.node.password.1=****
@@ -13,24 +13,22 @@ cdp.docker.session.cluster.node.password.1=****
 
 
 
-#数据库连接
+3.2数据库连接
 jdbc.url=****
 jdbc.username=***8
 jdbc.password=****
 
 
-#zookeeper配置
+3.3zookeeper配置
 dubbo.application.name=cdp-docker
 dubbo.registry.address=
 dubbo.protocol.dubbo.port=9002
 
-#c4a
+3.4c4a
 cdp.docker.auth.c4a.url=
 cdp.docker.auth.tob.login.c4a.url=
 cdp.docker.auth.tob.intercept.oauth.seed=
 
-#kafka
+3.5kafka
 cdp.docker.common.consumer.bootstrap.servers=****
 cdp.docker.common.provider.bootstrap.servers=****
-
-
